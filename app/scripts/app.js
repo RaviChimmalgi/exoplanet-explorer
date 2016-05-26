@@ -66,6 +66,7 @@ Instructions:
     .then(function(response) {
       response.results.forEach(function(url) {
         getJSON(url).then(createPlanetThumb);
+        
       });
     });
   });
